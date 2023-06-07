@@ -1,0 +1,87 @@
+@import url('./reset.css');
+
+:root {
+  --app-dark-bg:#1a1d28;
+  --font: rgb(255 255 255 /1);
+  --section-bg:#262930;
+  --border-color: #2a2c34;
+  --border-radius: 6px;
+  --app-red:#ff3c57;
+  --app-green:#33ab4e;
+  --app-purple:#833cff;
+  --app-orange:#ff833c;
+  --app-orange-hover:#fe7a2d;
+  --app-blue:#3c57ff;
+  --app-blue-hover:#364ee6;
+  --app-light-bg: #ffffff;
+  --app-gray: #c0bbbac3;
+}
+
+body { 
+  background-color: var(--app-dark-bg); 
+}
+
+.container {
+  margin-top: 150px;
+  width: min(100% - 30px, 1200px);
+  margin-inline: auto;
+  color: var(--app-light-bg);
+}
+
+div p, h1, h2, h3, h4, h5, h6, li, i, a span {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--app-light-bg);
+  letter-spacing: 0.2px;
+}
+
+section{
+  margin-top: 60px;
+}
+
+section .buttons {
+  display: flex;
+  margin-top:15px;
+}
+
+input, button {
+  display: block;
+  height: 42px;
+  border-radius: 50px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+input {
+  margin-left: 12px;
+  width: 42px;
+}
+
+button {
+  width: 150px;
+  margin-top: 15px;
+  background-color: #833cff;
+  color: #ffffff;
+}
+
+.result {
+  width: 100px;
+  height: 42px;
+  padding: 10px;
+  border: 2px solid var(--border-color);
+  border-radius: 50px; 
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--font);
+  background-color: var(--app-gray);
+  outline: none;
+  text-align: center;
+}
+
+
