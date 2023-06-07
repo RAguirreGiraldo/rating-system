@@ -1,5 +1,5 @@
-import React from 'react'
-import { FaStar } from 'react-icons/fa'
+import React from 'react';
+import { FaStar } from 'react-icons/fa';
 
 function Star(props) {
   return (
@@ -10,4 +10,4 @@ function Star(props) {
   )
 }
 
-export default Star
+export default Star;
