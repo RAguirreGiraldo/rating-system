@@ -1,9 +1,8 @@
-## React Components
+## Stateful Star Rating Component
 
-This project leverages React's component-based architecture to promote reusability, 
-modularity, and maintainability of the codebase. Components allow for the encapsulation 
-of functionality and UI elements, enabling easier development, testing, 
-and collaboration within the project.
+The StarRating function is a stateful React component that allows users to provide 
+ratings using a star-based interface. The component utilizes both state and props 
+to manage the rating functionality..
 
 Click [here](https://raguirregiraldo.github.io/rating-system/) to view the page
 
