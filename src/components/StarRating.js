@@ -1,8 +1,11 @@
 import React from 'react'
+import Star from './Star'
 
 function StarRating() {
   return (
-    <div>StarRating</div>
+    <div className='container'>
+        <Star/>
+    </div>
   )
 }
 

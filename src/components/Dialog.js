@@ -2,7 +2,9 @@ import React from 'react'
 
 function Dialog() {
   return (
-    <div>Dialog</div>
+    <div className= "dialog">
+        <span>Welcome a Ratings System</span>    
+    </div>
   )
 }
 
